@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Photoshop 101 - Girl Develop It</title>
+
+		<meta name="description" content="Materials for Photoshop 101, developed by Zoe Rooney for Girl Develop It - Philadelphia.
+		
+		The course is meant to be taught in a single 2 hour workshop.">
+		<meta name="author" content="Girl Develop It">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/gdicool.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<!-- light editor--><link rel="stylesheet" href="lib/css/light.css">
+		<!-- dark editor<link rel="stylesheet" href="lib/css/dark.css">-->
+
+		<!-- If use the PDF print sheet so students can print slides-->
+
+		<link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>Photoshop 101</h3>
+                    <img src="images/gdi_logo_badge.png" alt="" />
+				</section>
+                <section>
+                    <h2>It's so great to have you here!</h2>
+                    <div class="left-align">
+                        <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
+                        <p>Some "rules"</p>
+                        <ul>
+                            <li>We are here for you!</li>
+                            <li>Every question is important</li>
+                            <li>Help each other</li>
+                            <li>Have fun(!)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Well, hello there!</h2>
+                    <p>I'm happy to have you here.</p>
+                    <p>Let's take a few minutes and get to know each other.</p>
+                    <br>
+                    <div class="left-align">
+                        <ul>
+                            <li>Who are you?</li>
+                            <li>Why are you checking Photoshop out?</li>
+                            <li>If you could only eat one food for the rest of your life, what would it be (ignoring concerns about nutritional balance)?</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Topics for Today</h2>
+                    <ul>
+                        <li class="fragment">Why Photoshop, anyway?</li>
+                        <li class="fragment">Tools, Panels, and Settings</li>
+                        <li class="fragment">Working with Photos</li>
+                        <li class="fragment">Creative Adjustments</li>
+                        <li class="fragment">Layers &amp; Layer Comps</li>
+                        <li class="fragment">Saving and optimizing FTW!</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What to expect</h2>
+                    <ul>
+                        <li>This is a short survey of a very complex, multi-use program</li>
+                        <li class="fragment">I hope it'll give you a better sense of the features and applications</li>
+                        <li class="fragment">I don't know everything, and neither will you</li>
+                        <li class="fragment">Have fun! Bang around and mess with features! Ask questions!</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Why Photoshop?</h2>
+                    <img src="images/photoshop-icon.png" alt="" />
+                    <aside class="notes">
+                    	<p>Photoshop was originally created as a photo editing program, hence the name.</p>
+                    	<p>It is expensive ($$$). However, it's an industry standard and is widely used, and thus hard to completely break away from.</p>
+                        <p>Popular upstart - <a href="https://www.youtube.com/watch?v=H3xjKWKmSd4">Sketch</a>! (GDI class Mon, Nov 17)
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Raster vs. Vector</h2>
+                    <div style="width: 48%; margin-right: 2%; float: left; text-align: left;">
+                        <p class="fragment">Raster:</p>
+                        <ul class="fragment">
+                            <li>Dot-based</li>
+                            <li>Dots = pixels (sometimes)</li>
+                            <li>Cannot resize without quality loss</li>
+                            <li>GIF, JPG, PNG</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+                    <div style="width: 50%; float: left; text-align: left;">
+                        <p class="fragment">Vector:</p>
+                        <ul class="fragment">
+                            <li>Math-based (!)</li>
+                            <li>Uses geometry to create graphics (!)</li>
+                            <li>Infinitely resize while maintaining quality</li>
+                            <li>SVG</li>
+                            <li>Illustrator</li>
+                        </ul>
+                    </div>    
+                </section>
+                <section>
+                    <h2>Workspaces, units &amp; tools</h2>
+                    
+                    <section>
+	                    <h3>New Files</h3>
+	                    <img src="images/new-document.png" alt="" />
+	                    <aside class="notes">
+	                    	<ul>
+	                    	    <li class="fragment">Web default is a good starting point</li>
+	                    	    <li class="fragment">Make sure you're using pixels</li>
+	                    	    <li class="fragment">Resolution 72 pixels/ inch is (still) great</li>
+	                    	    <li class="fragment">RGB color</li>
+	                    	    <li class="fragment">Background white or transparent</li>
+	                    	</ul>
+	                    </aside>
+                    </section>
+                    
+                    <section>
+                        <h3>Preferences</h3>
+                        <p class="fragment">Under the Photoshop menu.</p>
+                        <ul>
+                            <li class="fragment">Units &amp; Rulers</li>
+                            <li class="fragment">Guides &amp; Grid</li>
+                        </ul>
+                    </section>
+                    <aside class="notes">
+                    	<ul>
+                    		<li class="fragment">Panels (Type, Layers, Slicing)</li>
+                    	    <li class="fragment">Units &amp; Rulers</li>
+                    	    <li class="fragment">Guides &amp; Grid</li>
+                    	</ul>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h2>Workspaces</h2>
+                    
+                    <section>
+                   		<h3>are...</h3>
+                    	<p class="fragment">Saved arrangements of:</p>
+                    	<ul class="fragment">
+                    	    <li class="fragment">tools</li>
+                    	    <li class="fragment">tool panels</li>
+                    	    <li class="fragment">keyboard shortcuts</li>
+                    	    <li class="fragment">menus</li>
+                    	</ul>
+                    	<br><br>
+                    	<p class="fragment">Roll your own!</p>
+                    	<p class="fragment">(In the Window menu)</p>
+                    </section>
+                    
+                    
+                    <section>
+                    	<h3>might include...</h3>
+                		<ul>
+                			<li class="fragment">Type</li>
+                			<li class="fragment">Character panel</li>
+                			<li class="fragment">Paragraph panel</li>
+                			<li class="fragment">Layers panel</li>
+                			<li class="fragment">Slice</li>
+                			<li class="fragment">Select</li>
+                			<li class="fragment">Eyedropper</li>
+                		</ul>
+                	</section>
+                	
+                	<section>
+                		<h3>might look like...</h3>
+                    	<aside class="notes">
+                    		<p>Looking at mine as an example</p>
+                    	</aside>
+                    </section>
+                    
+                 </section>
+
+                <section>
+                    <h2>Creating and working with actual FILES!</h2>
+                </section>
+
+                <section>
+                    <h2>Starting from Scratch!</h3>
+                    <ul>
+                        <li class="fragment">Sike, don't do it</li>
+                        <li class="fragment">Grid systems (<a href="http://960.gs/" target="_blank">960</a>, <a href="http://www.1140px.com/" target="_blank">1140</a>, <a href="http://www.thegridsystem.org/tags/photoshop/" target="_blank">various other templates</a>)</li>
+                        <li class="fragment">Preset sizes (social media)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Let's Do This!</h2>
+                    <p> Files...</p>
+                </section>
+                <section>
+                	<h2>Organization</h2>
+                    <ul>
+                        <li class="fragment">Name things clearly</li>
+                        <li class="fragment">Group and group some more</li>
+                    </ul>
+	             </section>
+                <section>
+                    <h2>Slicing, saving and optimizing</h2>
+                    <section>
+                    	<img src="images/file-types.gif" />
+                    </section>
+                    <section>
+                    
+                    </section>
+                    <ul>
+                       <li class="fragment">Maintaining key file information</li>
+                       <li class="fragment">Saving for the web</li>
+                       <li class="fragment">Optimizing</li>
+                    </ul>
+                </section>
+
+                <section>
+                  <h2>Questions?</h2>
+                  <div style = "font-size:1200%; height:100%; margin-top:40%" class ="blue">?
+                    <div class ="clear"></div></div>
+                </section>
+                
+                <section>
+                	<h2>Feedback Pls!</h2>
+                	<p>Please visit</p>
+                	<code style="display: block;margin:20px 0;">http://bit.ly/gdi-photoshop</code>
+                	<p>to submit your feedback about this class. It's anonymous and I really really really appreciate it.</p>
+			</div>
+  		<footer>
+        <div class="copyright">
+          Photoshop 101 -- Girl Develop It
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+        </div>
+      </footer>
+		</div>
+
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				history: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
