@@ -31,6 +31,8 @@ With a free Creative Cloud membership, you can download a 30-day trial version o
 1. First, download the zip file of all materials in this repository using the **Download Zip** button on the right side of the screen:<br>
 ![Download zip button](/images/download-zip.png)
 
-2. Open the zip file on your computer. In the folder, there is an **/example-files/** folder with example PSD files and extra images.
+2. Open the zip file on your computer. In the folder, there is an **/example-files/** folder with example files and extra images.
 
 3. To view the slideshow, open the **index.html** file in your web browser. The easiest way to navigate the slides is with your keyboard arrow keys.
+
+4. To grab a full sample PSD for practice (we'll look at this file during class as well), go to [this Dribble page](https://dribbble.com/shots/1794875-Freebie-PSD-Halcyon-Days-Website-PSD) and look for the download here link.
